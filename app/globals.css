@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #111827;
+  --color-border: #E5E7EB;
+  --color-muted: #6B7280;
+  --color-muted-light: #9CA3AF;
+  --color-surface: #F9FAFB;
+  --color-surface-hover: #F3F4F6;
+  --color-accent: #2563EB;
+  --color-accent-dark: #1D4ED8;
+  --color-selected-bg: #EFF6FF;
+  --color-intent-booking: #2563EB;
+  --color-intent-emergency: #DC2626;
+  --color-intent-pricing: #059669;
+  --color-intent-treatment: #7C3AED;
+  --color-intent-postcare: #D97706;
+  --color-intent-hours: #6B7280;
+  --color-intent-insurance: #0D9488;
+  --color-intent-general: #9CA3AF;
+  --font-sans: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-foreground);
+  background: var(--color-background);
+  margin: 0;
+  padding: 0;
+}
+
+/* Skeleton pulse animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.skeleton {
+  background-color: #E5E7EB;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

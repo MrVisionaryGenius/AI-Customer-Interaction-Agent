@@ -1,0 +1,13 @@
+---
+description: Core project guidance for Bright Smile Dental WhatsApp agent
+alwaysApply: true
+---
+
+# Bright Smile Dental Project Rules
+
+- Follow the docs in `node_modules/next/dist/docs/` before implementing or changing Next.js APIs and conventions.
+- Keep message flow intact: WhatsApp webhook input -> Supabase logging -> Gemini response -> outbound log -> WhatsApp reply.
+- Preserve resilience behavior: Supabase failures should not block replies, and WhatsApp send retries should remain safe.
+- Prefer concise, modular updates in `lib/` for prompts/intents and in `app/api/` for route logic.
+- Never commit secrets or environment values from `.env.local`; use env variables only.
+- For dashboard changes, keep real-time subscription behavior and polling fallback compatible.
