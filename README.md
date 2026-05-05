@@ -8,6 +8,16 @@ The system simulates a receptionist workflow — handling queries, guiding users
 
 This repository represents a simplified MVP version of a broader AI-driven interaction system.
 
+## Documentation Guide
+
+Use these documents for complete submission review:
+
+- `README.md` (this file): product overview, architecture, stack, and run steps
+- `EVALUATION.md`: evaluation methodology, benchmarks, and outcomes
+- `PRD.md`: product requirements and scope
+- `AGENTS.md`: agent behavior and workflow notes
+- `CLAUDE.md`: assistant/project operation notes
+
 ---
 
 ## Problem
@@ -87,13 +97,13 @@ All external API failures fallback to safe responses (no user-facing errors).
 
 ## Performance Metrics
 
-See: `/evaluation/metrics.md`
+See: `EVALUATION.md`
 
 ---
 
 ## Benchmark Comparison
 
-See: `/evaluation/benchmark.md`
+See: `EVALUATION.md`
 
 ---
 
@@ -124,7 +134,7 @@ See: `/evaluation/benchmark.md`
 
 ## Demo
 
-(Loom Video Link)
+Video demonstration: [Google Drive Demo](https://drive.google.com/file/d/1y-5s84v0eGZOWna6xv6xUUCEQZ9RdIB2/view?usp=sharing)
 
 ---
 
