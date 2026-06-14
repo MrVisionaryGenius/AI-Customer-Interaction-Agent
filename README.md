@@ -4,7 +4,7 @@
 
 This project is a production-oriented AI-powered WhatsApp agent designed to handle real-time customer interactions for service-based businesses.
 
-The system simulates a receptionist workflow — handling queries, guiding users, triaging urgency, and facilitating bookings — using LLM-driven decision-making.
+The system simulates a receptionist workflow, handling queries, guiding users, triaging urgency, and facilitating bookings - using LLM-driven decision-making.
 
 This repository represents a simplified MVP version of a broader AI-driven interaction system.
 
